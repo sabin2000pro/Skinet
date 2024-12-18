@@ -15,6 +15,8 @@ public class StoreContext : DbContext
     {
         modelBuilder.Entity<Product>().Property(x => x.Price);
         base.OnModelCreating(modelBuilder);
+
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(ProductConfiguration).Assembly);
     }
 
 }
