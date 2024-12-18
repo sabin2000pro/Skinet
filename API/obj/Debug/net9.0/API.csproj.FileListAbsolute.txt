@@ -6,8 +6,6 @@
 /Users/sabin2000pro/Documents/Skinet/API/bin/Debug/net9.0/API.runtimeconfig.json
 /Users/sabin2000pro/Documents/Skinet/API/bin/Debug/net9.0/API.dll
 /Users/sabin2000pro/Documents/Skinet/API/bin/Debug/net9.0/API.pdb
-/Users/sabin2000pro/Documents/Skinet/API/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
-/Users/sabin2000pro/Documents/Skinet/API/bin/Debug/net9.0/Microsoft.OpenApi.dll
 /Users/sabin2000pro/Documents/Skinet/API/bin/Debug/net9.0/Core.dll
 /Users/sabin2000pro/Documents/Skinet/API/bin/Debug/net9.0/Infrastructure.dll
 /Users/sabin2000pro/Documents/Skinet/API/bin/Debug/net9.0/Infrastructure.pdb
@@ -17,7 +15,6 @@
 /Users/sabin2000pro/Documents/Skinet/API/obj/Debug/net9.0/API.AssemblyInfoInputs.cache
 /Users/sabin2000pro/Documents/Skinet/API/obj/Debug/net9.0/API.AssemblyInfo.cs
 /Users/sabin2000pro/Documents/Skinet/API/obj/Debug/net9.0/API.csproj.CoreCompileInputs.cache
-/Users/sabin2000pro/Documents/Skinet/API/obj/Debug/net9.0/API.MvcApplicationPartsAssemblyInfo.cs
 /Users/sabin2000pro/Documents/Skinet/API/obj/Debug/net9.0/API.MvcApplicationPartsAssemblyInfo.cache
 /Users/sabin2000pro/Documents/Skinet/API/obj/Debug/net9.0/API.sourcelink.json
 /Users/sabin2000pro/Documents/Skinet/API/obj/Debug/net9.0/scopedcss/bundle/API.styles.css
