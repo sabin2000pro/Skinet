@@ -1,0 +1,16 @@
+/Users/sabin2000pro/Documents/Skinet/Infrastructure/bin/Debug/net9.0/Infrastructure.deps.json
+/Users/sabin2000pro/Documents/Skinet/Infrastructure/bin/Debug/net9.0/Infrastructure.dll
+/Users/sabin2000pro/Documents/Skinet/Infrastructure/bin/Debug/net9.0/Infrastructure.pdb
+/Users/sabin2000pro/Documents/Skinet/Infrastructure/bin/Debug/net9.0/Core.dll
+/Users/sabin2000pro/Documents/Skinet/Infrastructure/bin/Debug/net9.0/Core.pdb
+/Users/sabin2000pro/Documents/Skinet/Infrastructure/obj/Debug/net9.0/Infrastructure.csproj.AssemblyReference.cache
+/Users/sabin2000pro/Documents/Skinet/Infrastructure/obj/Debug/net9.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sabin2000pro/Documents/Skinet/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfoInputs.cache
+/Users/sabin2000pro/Documents/Skinet/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfo.cs
+/Users/sabin2000pro/Documents/Skinet/Infrastructure/obj/Debug/net9.0/Infrastructure.csproj.CoreCompileInputs.cache
+/Users/sabin2000pro/Documents/Skinet/Infrastructure/obj/Debug/net9.0/Infrastructure.sourcelink.json
+/Users/sabin2000pro/Documents/Skinet/Infrastructure/obj/Debug/net9.0/Infrastr.15EFFBFE.Up2Date
+/Users/sabin2000pro/Documents/Skinet/Infrastructure/obj/Debug/net9.0/Infrastructure.dll
+/Users/sabin2000pro/Documents/Skinet/Infrastructure/obj/Debug/net9.0/refint/Infrastructure.dll
+/Users/sabin2000pro/Documents/Skinet/Infrastructure/obj/Debug/net9.0/Infrastructure.pdb
+/Users/sabin2000pro/Documents/Skinet/Infrastructure/obj/Debug/net9.0/ref/Infrastructure.dll

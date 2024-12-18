@@ -1,0 +1,12 @@
+/Users/sabin2000pro/Documents/Skinet/Core/bin/Debug/net9.0/Core.deps.json
+/Users/sabin2000pro/Documents/Skinet/Core/bin/Debug/net9.0/Core.dll
+/Users/sabin2000pro/Documents/Skinet/Core/bin/Debug/net9.0/Core.pdb
+/Users/sabin2000pro/Documents/Skinet/Core/obj/Debug/net9.0/Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sabin2000pro/Documents/Skinet/Core/obj/Debug/net9.0/Core.AssemblyInfoInputs.cache
+/Users/sabin2000pro/Documents/Skinet/Core/obj/Debug/net9.0/Core.AssemblyInfo.cs
+/Users/sabin2000pro/Documents/Skinet/Core/obj/Debug/net9.0/Core.csproj.CoreCompileInputs.cache
+/Users/sabin2000pro/Documents/Skinet/Core/obj/Debug/net9.0/Core.sourcelink.json
+/Users/sabin2000pro/Documents/Skinet/Core/obj/Debug/net9.0/Core.dll
+/Users/sabin2000pro/Documents/Skinet/Core/obj/Debug/net9.0/refint/Core.dll
+/Users/sabin2000pro/Documents/Skinet/Core/obj/Debug/net9.0/Core.pdb
+/Users/sabin2000pro/Documents/Skinet/Core/obj/Debug/net9.0/ref/Core.dll
