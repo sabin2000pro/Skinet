@@ -14,3 +14,5 @@
 /Users/sabin2000pro/Documents/Skinet/Infrastructure/obj/Debug/net9.0/refint/Infrastructure.dll
 /Users/sabin2000pro/Documents/Skinet/Infrastructure/obj/Debug/net9.0/Infrastructure.pdb
 /Users/sabin2000pro/Documents/Skinet/Infrastructure/obj/Debug/net9.0/ref/Infrastructure.dll
+/Users/sabin2000pro/Documents/Skinet/Infrastructure/bin/Debug/net9.0/Infrastructure.runtimeconfig.json
+/Users/sabin2000pro/Documents/Skinet/Infrastructure/obj/Debug/net9.0/Infrastructure.genruntimeconfig.cache

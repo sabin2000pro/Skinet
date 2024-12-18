@@ -10,3 +10,6 @@
 /Users/sabin2000pro/Documents/Skinet/Core/obj/Debug/net9.0/refint/Core.dll
 /Users/sabin2000pro/Documents/Skinet/Core/obj/Debug/net9.0/Core.pdb
 /Users/sabin2000pro/Documents/Skinet/Core/obj/Debug/net9.0/ref/Core.dll
+/Users/sabin2000pro/Documents/Skinet/Core/bin/Debug/net9.0/Core.runtimeconfig.json
+/Users/sabin2000pro/Documents/Skinet/Core/obj/Debug/net9.0/Core.csproj.AssemblyReference.cache
+/Users/sabin2000pro/Documents/Skinet/Core/obj/Debug/net9.0/Core.genruntimeconfig.cache
