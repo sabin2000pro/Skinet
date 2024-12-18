@@ -27,9 +27,17 @@ public class ProductsController : ControllerBase {
         var product = await context.Product.FindAsync(id);
 
         if(product == null) {
-            return BadRequest();
+            return NotFound();
         }
 
+        return product;
+    }
+
+    [HttpPost]
+    public async Task<ActionResult<Product>> CreateProduct(Product product) {
+        context.Product.Add(product);
+
+        await context.SaveChangesAsync();
         return product;
     }
 
