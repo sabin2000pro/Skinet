@@ -14,7 +14,7 @@ public class ProductsController : ControllerBase {
     public ProductsController(StoreContext _context)
 
     {
-        _context = context;
+        context = _context;
     }
     
     [HttpGet]
@@ -22,5 +22,15 @@ public class ProductsController : ControllerBase {
         return await context.Product.ToListAsync();
     }
     
+    [HttpGet("{id:int}")] // api/products/2
+    public async Task<ActionResult<Product>> GetProduct(int id) {
+        var product = await context.Product.FindAsync(id);
+
+        if(product == null) {
+            return BadRequest();
+        }
+
+        return product;
+    }
 
 }
