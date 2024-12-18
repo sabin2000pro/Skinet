@@ -10,4 +10,11 @@ public class StoreContext : DbContext
 
     public DbSet<Product> Product {get; set; }
 
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+
+    {
+        modelBuilder.Entity<Product>().Property(x => x.Price);
+        base.OnModelCreating(modelBuilder);
+    }
+
 }
