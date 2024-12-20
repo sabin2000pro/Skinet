@@ -18,13 +18,13 @@ public class ProductsController : ControllerBase {
     }
     
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Product>>> FetchTasks() {
+    public async Task<ActionResult<IEnumerable<Product>>> GetProductsAsync() {
         return await context.Product.ToListAsync();
     }
     
     [HttpGet("{id:int}")] // api/products/2
     public async Task<ActionResult<Product>> GetProduct(int id) {
-        
+
         var product = await context.Product.FindAsync(id);
 
         if(product == null) {
