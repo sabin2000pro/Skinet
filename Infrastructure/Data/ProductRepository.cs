@@ -53,4 +53,14 @@ public class ProductRepository : IProductRepository
         _context.Entry(product).State = EntityState.Modified;
     }
 
+    public async Task<IReadOnlyList<string>> GetBrandsAsync() // Returns the Brand(s) that belongs to a Product
+    {
+       return await _context.Product.Select(x => x.Brand).Distinct().ToListAsync();
+    }
+
+    public async Task<IReadOnlyList<string>> GetTypesAsync() // Returns the Types that belongs to a Product
+    {
+        return await _context.Product.Select(x => x.Type).Distinct().ToListAsync();
+    }
+
 }
