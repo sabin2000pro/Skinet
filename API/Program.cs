@@ -22,6 +22,7 @@ app.MapControllers();
 
 // 3. Set up the Middleware for Seeding the Data into the database
 try {
+
    using var scope = app.Services.CreateScope();
    var services = scope.ServiceProvider;
    var context = services.GetRequiredService<StoreContext>();

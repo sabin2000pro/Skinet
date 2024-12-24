@@ -8,8 +8,9 @@ namespace API;
 public class ProductsController(IProductRepository productsRepo) : ControllerBase {
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Product>>> GetProductsAsync() {
-        return Ok(await productsRepo.GetProductsAsync());
+    public async Task<ActionResult<IEnumerable<Product>>> GetProductsAsync(string? brand, 
+    string? type, string? sort) {
+        return Ok(await productsRepo.GetProductsAsync(brand, type, sort));
     }
     
     [HttpGet("{id:int}")] // api/products/2
@@ -79,7 +80,6 @@ public class ProductsController(IProductRepository productsRepo) : ControllerBas
     public async Task<ActionResult<IReadOnlyList<string>>> GetTypes() {
         return Ok(await productsRepo.GetTypesAsync());
     }
-
 
     private bool ProductExists(int id) {
         return productsRepo.CheckProductExistance(id);
