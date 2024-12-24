@@ -1,4 +1,5 @@
 using Core;
+using Core.Interfaces;
 using Infrastructure;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,8 +13,9 @@ builder.Services.AddDbContext<StoreContext>(options => {
    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
-// 2. Initialize the Repository as a Service
+// 2. Initialize the Repository Pattern & Generic as Services
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
 var app = builder.Build();
 app.UseAuthorization();
